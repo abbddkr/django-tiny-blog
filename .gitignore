@@ -1,0 +1,31 @@
+# .gitignore
+
+# Ignore Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyi
+*.egg-info/
+dist/
+build/
+.vscode/
+
+.env
+.env.*
+*.sqlite3
+
+staticfiles/
+media/
+uploads/
+
+**/migrations/
+
+docs/_build/
+
+node_modules/
+venv/
+pipenv/
+
+.idea/
+.vs/
