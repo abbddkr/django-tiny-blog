@@ -1,14 +1,13 @@
 # Django Tiny Blog
 
-Django Tiny Blog is a RESTful API-based blog application built with Django Rest Framework (DRF). It allows users to create, read, update, and delete blog posts and users. The API is secured, and users must provide a JWT (JSON Web Token) key to perform CRUD operations.
+Django Tiny Blog is a RESTful API-based tiny blog application built with Django Rest Framework. It allows users to create, read, update, and delete blog posts and users. The API is secured, and users must provide a JSON Web Token key to perform CRUD operations.
 
 ## Features
-
-- User Registration: Users can register and create an account.
 - Authentication: Users can obtain a JWT token by providing valid credentials.
 - Create, Read, Update, and Delete Posts: Users can perform CRUD operations on blog posts.
 - Create, Read, Update, and Delete Users: Admin users can manage user accounts.
 - Security: JWT authentication is implemented to ensure secure access to the API.
+- Easy Admin Panel: This project includes Django's built-in Admin Dashboard, providing an easy interface for managing and updating content.
 
 ## Installation
 
@@ -79,9 +78,3 @@ Content-Type: application/json
 The following are some of the key API endpoints available in this project:
 - `/api/posts/`: CRUD operations for blog posts.
 - `/api/users/`: CRUD operations for users (admin access only).
-
-
-## Contributing
-
-Contributions to the Django Tiny Blog project are welcome! If you find any issues or have ideas for improvements, please submit a pull request or open an issue on the project repository.
-
