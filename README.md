@@ -7,7 +7,7 @@ Django Tiny Blog is a RESTful API-based tiny blog application built with Django 
 - Create, Read, Update, and Delete Posts: Users can perform CRUD operations on blog posts.
 - Create, Read, Update, and Delete Users: Admin users can manage user accounts.
 - Security: JWT authentication is implemented to ensure secure access to the API.
-- Easy Admin Panel: This project includes Django's built-in Admin Dashboard, providing an easy interface for managing and updating content.
+- Easy Admin Panel: This project includes Django's built-in Admin Dashboard, providing an easy interface for managing and updating content with a great markdown editor for post content field [martor](https://pypi.org/project/martor/).
 
 ## Installation
 
